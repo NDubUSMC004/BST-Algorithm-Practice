@@ -5,10 +5,7 @@ gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wfor
 # All the .o files in this project
 OBJECTS = BST.o createNode.o freeMemory.o findParent.o updateSize.o insert.o treeMin.o treeMax.o treeSuccessor.o transplant.o nodeDelete.o rightRotate.o leftRotate.o graphicalTreeWalk.o inOrderTreeWalk.o treeSearch.o printSearchResults.o option1.o option2.o option3.o
 
-all: BST.zip BST BSTtest
-
-#BST.zip: *.c *.h Makefile
-#	zip $@ $^
+all: BST BSTtest
 	
 %.o: %.c *.h
 	gcc -c $< -o $@ $(gcc_opt)
