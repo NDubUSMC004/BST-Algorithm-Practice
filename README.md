@@ -9,7 +9,7 @@ The project comes with a file called *testDriver*. This is the preformatted inpu
 
 If you wish to test the program manually, you may do so by typing *BST* into the command line. Be sure to carefully read each prompt to ensure you are giving the correct input. In some cases, I have programmed guards to protect against incorrect input, but I have not done this throughout the program, as this was intended as a personal use project. **PROPER INPUT IS THE RESPONSIBILITY OF THE USER!** 
 
-### Testdriver Explained
+### testDriver Explained
 If you are using the *testDriver* with the *BSTtest* executable, you will only see the results of each operation (as the prompts have been disabled). You can follow along with this section to verify visually that the program is working as expected.
 The *testDriver* performs the following actions, in this order:  
 
