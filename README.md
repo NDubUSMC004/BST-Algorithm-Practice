@@ -1,7 +1,9 @@
-# BST-Algorithm-Practice
+# BST-Practice-C
 ## Author: Kaleb Turner
 ### Purpose  
 I created this project to help me memorize and practice using various Binary Search Tree algorithms for an algorithms and data structures course. For this class, we were given pseudocode for various BST algorithms. We had to be able to memorize the algorithms and implement them by hand. While studying these algorithms, I realized I did not have a way to check my manual use of the algorithms, so I created this project to help with the validation.  
+### Specifications
+This project was created in a Linux environment using the C programming language. To create the executables using the provided Makefile, you will need GNU gcc and make installed.
 ### Executables
 The Makefile will create two executables. These executables function the same, except that the *BST* executable will prompt you for various inputs, while *BSTtest* has the prompts hidden. For this reason, you should only use *BSTtest* if you redirect stdin to a preformatted input file.
 ### Project Use
@@ -20,7 +22,7 @@ The *testDriver* performs the following actions, in this order:
 		- expected output: 6 8 18 19 22 24 25 27 28 32 35
 		
 	- prints the tree in a graphical format. Note the tree is printed sideways, with the root on the far left (column 1), its children in column 2, etc.
-		- expected output: The tree should resemble the one given in HW 21, problem 3
+		- expected output: You will have to do the rotation yourself to verify it is correct (or trust me)
 		
 	- Print the smallest and largest nodes in the tree
 		- expected output: smallest = 6, largest = 35
