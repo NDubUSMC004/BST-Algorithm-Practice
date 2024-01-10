@@ -7,8 +7,8 @@ OBJECTS = BST.o createNode.o freeMemory.o findParent.o updateSize.o insert.o tre
 
 all: BST.zip BST BSTtest
 
-BST.zip: *.c *.h Makefile
-	zip $@ $^
+#BST.zip: *.c *.h Makefile
+#	zip $@ $^
 	
 %.o: %.c *.h
 	gcc -c $< -o $@ $(gcc_opt)
