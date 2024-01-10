@@ -13,7 +13,7 @@ int main() {
 	menu(&root);
 
 	/* Free all dynamically allocated memory */
-	printf("Thank you for playing! Freeing memory and exiting the program... BYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!\n");
+	printf("Freeing memory and exiting the program.\n");
 	freeMemory(root);
 	return 0;
 }
