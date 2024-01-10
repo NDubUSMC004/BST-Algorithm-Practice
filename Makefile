@@ -1,7 +1,5 @@
 #Author Kaleb Turner
 
-# Note this Makefile was adapted from one I received as part of a lab for Systems1. This file is not essential to the performance of this project. I am using this to make my life easier. Please do not COAM me :)
-
 gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wformat -g
 
 # All the .o files in this project
